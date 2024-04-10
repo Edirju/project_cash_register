@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --dark-grey: #1b1b32;
+  --light-grey: #f5f6f7;
+  --black: #000;
+  --white: #fff;
+  --grey: #3b3b4f;
+  --golden-yellow: #fecc4c;
+  --yellow: #ffcc4c;
+  --gold: #feac32;
+  --orange: #ffac33;
+  --dark-orange: #f89808;
+  --font-body: "Jost", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--light-grey);
+  color: var(--dark-grey);
+  font-family: var(--font-body);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;  
+  padding: 2.5rem .625rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 20px 0;
+  text-align: center;
+}
+
+#change-due {
+  text-align:left;
+  font-size: 1.2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 0 20px;
+}
+
+label {
+  font-size: 1.125rem;
+}
+
+.user-input {
+  height: 30px;
+  padding: 10px;
+  margin: 10px;
+  font-size: .9375rem;
+}
+
+.price-screen {
+  border: 10px solid var(--golden-yellow);
+  border-radius: 6px;
+  background-color: black;
+  height: 50px;
+  width: 200px;
+  margin-left: -40px;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#price {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.connector {
+  margin-left: -20px;
+  background-color: var(--gold);
+  height: 30px;
+  width: 40px;
+}
+
+.top-register {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px 20px 0 0;
+  padding-top: 20px;
+  background-color: var(--golden-yellow);
+  height: 250px;
+  width: 325px;
+}
+
+.btns-container {
+  width: 25%;
+}
+
+.btn {
+  border-radius: 10%;
+  border: none;
+  width: 20px;
+  height: 20px;
+  background-color: var(--grey);
+}
+
+.check-btn-styles {
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  color: var(--dark-grey);
+  font-size: 1.125rem;
+  font-weight: bold;
+  background-color: #feac32;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  border-color: #feac32;
+  border-width: 3px;
+}
+
+.cash-drawer-display {
+  font-size: 1rem;
+  background-color: white;
+  width: 55%;
+  height: 95%;
+  color: black;
+  padding: 8px;
+  line-height: 1.25rem;
+  border-radius: 5% 5% 0 0;
+}
+
+.bottom-register {
+  background-color: var(--dark-orange);
+  height: 50px;
+  width: 325px;
+  margin-top: 10px;
+}
+
+.circle {
+  margin: 15px auto;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: var(--black);
+}
+
+
+
+
+
+
+
+
